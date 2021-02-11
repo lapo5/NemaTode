@@ -1,11 +1,10 @@
 #include <iostream>
 #include <libserial/SerialPort.h>
-#include <libserial/SerialStream.h>
-
-#include <boost/version.hpp>
 
 #include <nmeaparse/nmea.h>
 #include <iomanip>
+
+#include "HAL_Sirius_F9P_Rover.cpp"
 
 using namespace LibSerial;
 using namespace std;
@@ -57,7 +56,7 @@ int main()
     int position = 0;
 
     int count = 0;
-    while(count < 100) {
+    while(count < 1) {
         try {
             my_serial_port.ReadByte(buffer[position], 0);
 
@@ -79,6 +78,21 @@ int main()
 
 
     cout << gps.fix.toString() << endl;
+
+    cout << "Lat: " << gps.fix.latitude << " - Long: " << gps.fix.longitude << " - Alt: " << gps.fix.altitude << endl;
+
+    /*
+    SiriusF9P_Rover hal_gps("/dev/ttyACM0", 115200, 100);
+
+    cout << "Is open: " << hal_gps.isPortOpen() << endl;
+
+    int count_giri = 0;
+    while(count_giri < 100) {
+        hal_gps.readSerial();
+        count_giri++;
+    }
+
+     //*/
 }
 
 

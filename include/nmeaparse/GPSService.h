@@ -32,6 +32,7 @@ private:
 public:
 	GPSFix fix;
 
+    GPSService();
 	GPSService(NMEAParser& parser);
 	virtual ~GPSService();
 

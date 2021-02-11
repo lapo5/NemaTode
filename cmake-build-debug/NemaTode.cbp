@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NemaTode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NemaTode">
+				<Option output="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/libNemaToded.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marco/CLionProjects/gnss/NemaTode/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 NemaTode"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NemaTode/fast">
+				<Option output="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/libNemaToded.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marco/CLionProjects/gnss/NemaTode/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 NemaTode/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_advanced">
+				<Option output="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/demo_advanced" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marco/CLionProjects/gnss/NemaTode/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_advanced"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_advanced/fast">
+				<Option output="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/demo_advanced" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marco/CLionProjects/gnss/NemaTode/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_advanced/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_simple">
+				<Option output="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/demo_simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marco/CLionProjects/gnss/NemaTode/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_simple"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_simple/fast">
+				<Option output="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/demo_simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marco/CLionProjects/gnss/NemaTode/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_simple/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marco/CLionProjects/gnss/NemaTode/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/marco/CLionProjects/gnss/NemaTode/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/marco/CLionProjects/gnss/NemaTode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/demo_advanced.cpp">
+			<Option target="demo_advanced"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/demo_simple.cpp">
+			<Option target="demo_simple"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/include/nmeaparse/Event.h">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/include/nmeaparse/GPSFix.h">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/include/nmeaparse/GPSService.h">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/include/nmeaparse/NMEACommand.h">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/include/nmeaparse/NMEAParser.h">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/include/nmeaparse/NumberConversion.h">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/include/nmeaparse/nmea.h">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/src/GPSFix.cpp">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/src/GPSService.cpp">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/src/NMEACommand.cpp">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/src/NMEAParser.cpp">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/src/NumberConversion.cpp">
+			<Option target="NemaTode"/>
+		</Unit>
+		<Unit filename="/home/marco/CLionProjects/gnss/NemaTode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

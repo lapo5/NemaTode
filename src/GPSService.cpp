@@ -51,7 +51,9 @@ double convertKnotsToKilometersPerHour(double knots){
 // ------------- GPSSERVICE CLASS -------------
 
 
+GPSService::GPSService(){
 
+}
 
 GPSService::GPSService(NMEAParser& parser) {
 	attachToParser(parser);		// attach to parser in the GPS object
