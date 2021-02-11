@@ -76,16 +76,16 @@ void GPSService::attachToParser(NMEAParser& _parser){
 	_parser.setSentenceHandler("PSRF150", [this](const NMEASentence& nmea){
 		this->read_PSRF150(nmea);
 	});
-	_parser.setSentenceHandler("GPGGA", [this](const NMEASentence& nmea){
+	_parser.setSentenceHandler("GNGGA", [this](const NMEASentence& nmea){
 		this->read_GPGGA(nmea);
 	});
-	_parser.setSentenceHandler("GPGSA", [this](const NMEASentence& nmea){
+	_parser.setSentenceHandler("GNGSA", [this](const NMEASentence& nmea){
 		this->read_GPGSA(nmea);
 	});
-	_parser.setSentenceHandler("GPGSV", [this](const NMEASentence& nmea){
+	_parser.setSentenceHandler("GNGSV", [this](const NMEASentence& nmea){
 		this->read_GPGSV(nmea);
 	});
-	_parser.setSentenceHandler("GPRMC", [this](const NMEASentence& nmea){
+	_parser.setSentenceHandler("GNRMC", [this](const NMEASentence& nmea){
 		this->read_GPRMC(nmea);
 	});
 	_parser.setSentenceHandler("GPVTG", [this](const NMEASentence& nmea){

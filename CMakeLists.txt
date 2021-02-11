@@ -77,3 +77,7 @@ target_link_libraries(demo_advanced ${PROJECT_NAME})
 # build demo_simple
 add_executable(demo_simple demo_simple.cpp)
 target_link_libraries(demo_simple ${PROJECT_NAME})
+
+# build main
+add_executable(main main.cpp)
+target_link_libraries(main ${PROJECT_NAME} -lserial)
